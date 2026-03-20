@@ -1,0 +1,38 @@
+# Site settings for ChatFlow Pro IA
+title: ChatFlow Pro IA ⚡
+description: Extensión de Chrome con atajos inteligentes y sugerencias de IA para acelerar tus respuestas en chats
+author: OlaApp
+email: ivanargemiroriosrios@gmail.com
+url: https://olaapp.github.io
+repository: ivanriosios/olaapp.github.io
+github_username: ivanriosios
+
+# Build settings
+theme: jekyll-theme-minimal
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Site navigation
+navigation:
+  - name: Inicio
+    url: /
+  - name: Privacidad
+    url: /privacidad.html
+  - name: GitHub
+    url: https://github.com/ivanriosios/olaapp.github.io
+
+# SEO
+google_site_verification: ''
+social:
+  links:
+    - https://github.com/ivanriosios
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      image: /assets/chatflow-icon.png
